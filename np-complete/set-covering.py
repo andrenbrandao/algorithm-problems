@@ -38,7 +38,40 @@ How to find the time complexity? For each station, I can add it to the set, or n
 2^0 + 2^1+ 2^2... 2^n => Sum(2^k) from 0 to n. => 2^(n+1) - 1
 
 Time Complexity: O(2^n)
+
+--
+Greedy Solution (Approximation Algorithm)
+- Pick the station with the most states that have not been covered yet.
+It is ok if some states have already been covered.
+- Repeat the process until all states are covered.
+
+So, we have to go through all stations and check how many states it can cover. Compare this to the
+next stations and get the one with the max amount of states covered.
+Do this until all states are covered.
+
+Since we might go through the entire list N times for each of the states, this is O(n²).
+
+Time Complexity: O(n²)
 """
+
+
+def set_cover_greedy(stations, states_needed):
+    final_stations = set()
+
+    while states_needed:
+        best_station = None
+        covered = set()
+
+        for station, states_for_station in stations.items():
+            covered_states_of_stations = states_for_station & states_needed
+            if len(covered_states_of_stations) > len(covered):
+                covered = covered_states_of_stations
+                best_station = station
+
+        states_needed -= covered
+        final_stations.add(best_station)
+
+    return final_stations
 
 
 def set_cover_naive(stations, states_needed):
@@ -80,7 +113,7 @@ def get_subsets_with_all_states(states_for_station, subsets, states_needed):
 
 
 def test(stations, states_needed, expected_answer):
-    answer = set_cover_naive(stations, states_needed)
+    answer = set_cover_greedy(stations, states_needed)
 
     if answer != expected_answer:
         raise Exception(

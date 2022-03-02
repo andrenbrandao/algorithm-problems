@@ -17,4 +17,85 @@ kfour -> nv, ut
 kfive -> ca, az
 
 How do you figure out the smallest set of stations you can play on to cover all 50 states?
+
+--
+### SOLUTION ####
+
+Naive Solution
+- Create a set of states
+- Create all possible subsets of stations
+- For each subset, check if it contains all states and pick the smallest
+
+How to find the time complexity? For each station, I can add it to the set, or not add it.
+
+        {}
+   /         \
+  {}        {kone}
+ / \         /  \
+{} {ktwo} {kone} {kone, ktwo}
+/\...
+
+2^0 + 2^1+ 2^2... 2^n => Sum(2^k) from 0 to n. => 2^(n+1) - 1
+
+Time Complexity: O(2^n)
 """
+
+
+def set_cover_naive(stations, states_needed):
+    subsets = generate_subsets(stations)
+
+    subsets_with_all_states = get_subsets_with_all_states(
+        stations, subsets, states_needed
+    )
+
+    return min(subsets_with_all_states, key=lambda subset: len(subset))
+
+
+def generate_subsets(stations):
+    keys = list(stations.keys())
+    subsets = []
+
+    def rec_gen_subset(stations, index, current_subset):
+        if index >= len(stations):
+            subsets.append(current_subset)
+            return
+
+        rec_gen_subset(stations, index + 1, current_subset | set([stations[index]]))
+        rec_gen_subset(stations, index + 1, current_subset)
+
+    rec_gen_subset(keys, 0, set())
+    return subsets
+
+
+def get_subsets_with_all_states(states_for_station, subsets, states_needed):
+    subsets_with_all_states = []
+    for subset in subsets:
+        covered_states = set()
+        for station in subset:
+            covered_states = covered_states | states_for_station[station]
+        if covered_states == states_needed:
+            subsets_with_all_states.append(subset)
+
+    return subsets_with_all_states
+
+
+def test(stations, states_needed, expected_answer):
+    answer = set_cover_naive(stations, states_needed)
+
+    if answer != expected_answer:
+        raise Exception(
+            f"Answer {answer} is incorrect. Expected answer was {expected_answer}"
+        )
+
+
+if __name__ == "__main__":
+    stations = {
+        "kone": set(["id", "nv", "ut"]),
+        "ktwo": set(["wa", "id", "mt"]),
+        "kthree": set(["or", "nv", "ca"]),
+        "kfour": set(["nv", "ut"]),
+        "kfive": set(["ca", "az"]),
+    }
+    states_needed = set(["id", "nv", "ut", "wa", "mt", "or", "ca", "az"])
+    test(stations, states_needed, set(["ktwo", "kthree", "kone", "kfive"]))
+    print("All tests passed!")

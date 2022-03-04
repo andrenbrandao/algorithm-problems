@@ -1,9 +1,14 @@
 """
+There are n stairs, a person standing at the bottom wants to reach the top.
+The person can climb an array of possible steps at a time.
+Count the number of ways, the person can reach the top.
+
       10
     /  |  \
    8   5   9
  / | \
 0 -> one way
+
 
 """
 

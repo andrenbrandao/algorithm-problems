@@ -1,5 +1,8 @@
 """
 Implement a postorder traversal of a tree both recursively and iteratively.
+
+Tips: I have learned how to convert it from recursive to iterative approach
+in this lesson: https://www.udemy.com/course/learn-recursion/learn/lecture/23974180#overview
 """
 
 

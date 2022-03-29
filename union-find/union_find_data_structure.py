@@ -32,6 +32,21 @@ Find(4)
   / | \
  1  3  4
 
+
+-- With any type of element
+
+Map the elements to an index in the array.
+We can use a hashmap for this.
+
+{
+    a: 0
+    b: 1
+    c: 2
+    d: 3
+}
+
+Now, when we want to find an element, we get the index
+from the hashmap.
 """
 
 

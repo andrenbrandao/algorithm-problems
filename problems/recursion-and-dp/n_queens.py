@@ -1,6 +1,6 @@
 """
-To find all the solutions, we just have to make a small modification to the Algorithm to
-find the Number of Solutions below.
+LeetCode 51. N-Queens
+https://leetcode.com/problems/n-queens/
 ----
 
 

@@ -5,7 +5,46 @@
 
 ## Overview
 
-These are my solutions to multiple algorithm problems. Most of them are from Leetcode or books.
+These are my solutions to multiple algorithm problems. Most of them are from Leetcode, but others will be from other courses or books.
+
+I have also created a directory to save my implementations of some [Data Structures](./data-structures/).
+
+## Trees and Graphs
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| - | Maximum Common Prefix Between Any Two Words | [Python](./problems/trees-and-graphs/max_common_prefix.py) | - | - |
+| 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./problems/trees-and-graphs/min_cost_to_connect_all_points.py) | Medium | LeetCode |
+| - | [Swap Nodes](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Python](./problems/trees-and-graphs/swap_nodes.py) | Medium | HackerRank |
+
+## Recursion and Dynamic Programing
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| - | Add Digits Recursively | [Python](./problems/recursion-and-dp/add_digits.py) | - | - |
+| - | All Possible Subsequences | [Python](./problems/recursion-and-dp/all_possible_subsequences.py) | - | - |
+| - | Count Occurrences | [Python](./problems/recursion-and-dp/count_ocurrences.py) | - | - |
+| - | H-Tree Construction | [Python](./problems/recursion-and-dp/h_tree.py) | - | Pramp |
+| - | Has Adjacent Duplicates | [Python](./problems/recursion-and-dp/has_adjacent_duplicates.py) | - | - |
+| - | KeyPad Combinations | [Python](./problems/recursion-and-dp/keypad_combinations.py) | - | - |
+| - | Knapsack Combinations | [Python](./problems/recursion-and-dp/knapsack_combinations.py) | - | - |
+| - | Min Cost Path Matrix | [Python](./problems/recursion-and-dp/min_cost_path_matrix.py) | - | - |
+| - | N-Bits Booleans | [Python](./problems/recursion-and-dp/n_bits_booleans.py) | - | - |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./problems/recursion-and-dp/n_queens.py) | Hard | LeetCode |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./problems/trees-and-graphs/number_of_islands.py) | Medium | LeetCode |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Python](./problems/recursion-and-dp/permutations_ii.py) | Medium | LeetCode |
+| - | Possible Phrases | [Python](./problems/recursion-and-dp/possible_phrases.py) | - | - |
+| - | Reverse String | [Python](./problems/recursion-and-dp/reverse_string.py) | - | - |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](./problems/recursion-and-dp/sudoku_solver.py) | Hard | LeetCode |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./problems/recursion-and-dp/unique_paths.py) | Medium | LeetCode |
+| - | Ways To Climb Stairs | [Python](./problems/recursion-and-dp/ways_to_climb_stairs.py) | - | - |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./problems/recursion-and-dp/word_search.py) | Medium | LeetCode |
+
+## NP-Complete
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| - | Set Covering Problem | [Python](./problems/np-complete/set_covering.py) | - | Grokking Algorithms Book |
 
 ## License
 

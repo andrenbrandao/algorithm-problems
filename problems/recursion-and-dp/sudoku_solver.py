@@ -1,4 +1,10 @@
 """
+LeetCode 37. Sudoku Solver
+https://leetcode.com/problems/sudoku-solver/
+
+Question also asked in Pramp.
+---
+
 Write the function `sudokuSolve` that checks whether a given sudoku board (i.e. sudoku puzzle) is solvable. If so, the function will returns `true`. Otherwise (i.e. there is no valid solution to the given sudoku board), returns `false`.
 
 In sudoku, the objective is to fill a **9x9** board with digits so that each column, each row, and each of the nine **3x3** sub-boards that compose the board contains all of the digits from 1 to 9. The board setter provides a partially completed board, which for a well-posed board has a unique solution. **As explained above, for this problem, it suffices to calculate whether a given sudoku board has a solution. No need to return the actual numbers that make up a solution**.
@@ -107,10 +113,10 @@ def is_number_in_column(board, column, number):
 [1,9,8] <-- (2,2) have to check from 0 to 2. Well, we have already cchecked for other numbers, so we do not need to.
 We only need to check the next numbers inside the board.
 
-position (4,1) has to be checked from (4,2), (5,0), (5,1) and (5,2) 
+position (4,1) has to be checked from (4,2), (5,0), (5,1) and (5,2)
 
 rows
-3 -> 0 + 3 -> 3 - 3 % 3 = 3 
+3 -> 0 + 3 -> 3 - 3 % 3 = 3
 4 -> 1 + 3 -> 4 - 4 % 3 = 3
 5 -> 2 + 3 -> 5 - 5 % 3 = 3
 

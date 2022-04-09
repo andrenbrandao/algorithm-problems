@@ -16,6 +16,8 @@ I have also created a directory to save my implementations of some [Data Structu
 | 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./problems/arrays-and-strings/sort_array_by_parity.py) | Easy | LeetCode |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./problems/arrays-and-strings/count_and_say.py) | Medium | LeetCode |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./problems/arrays-and-strings/longest_common_prefix.py) | Easy | LeetCode |
+| 382 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](./problems/arrays-and-strings/move_zeroes.py) | Easy | LeetCode |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./problems/arrays-and-strings/remove_duplicates_from_sorted_array.py) | Easy | LeetCode |
 
 ## Linked Lists
 
@@ -30,6 +32,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | - | Maximum Common Prefix Between Any Two Words | [Python](./problems/trees-and-graphs/max_common_prefix.py) | - | - |
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./problems/trees-and-graphs/min_cost_to_connect_all_points.py) | Medium | LeetCode |
 | - | [Swap Nodes](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Python](./problems/trees-and-graphs/swap_nodes.py) | Medium | HackerRank |
+| 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](./problems/trees-and-graphs/all_paths_from_source_to_target.py) | Medium | LeetCode |
 
 ## Recursion and Dynamic Programing
 

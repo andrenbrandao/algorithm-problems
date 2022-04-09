@@ -9,6 +9,20 @@ These are my solutions to multiple algorithm problems. Most of them are from Lee
 
 I have also created a directory to save my implementations of some [Data Structures](./data-structures/).
 
+## Arrays and Strings
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Python](./problems/arrays-and-strings/sort_array_by_parity.py) | Easy | LeetCode |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./problems/arrays-and-strings/count_and_say.py) | Medium | LeetCode |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./problems/arrays-and-strings/longest_common_prefix.py) | Easy | LeetCode |
+
+## Linked Lists
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./problems/linked-lists/linked_list_cycle.py) | Easy | LeetCode |
+
 ## Trees and Graphs
 
 | # | Title | Solution | Difficulty | Platform |

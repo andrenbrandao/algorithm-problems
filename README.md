@@ -56,6 +56,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./problems/recursion-and-dp/unique_paths.py) | Medium | LeetCode |
 | - | Ways To Climb Stairs | [Python](./problems/recursion-and-dp/ways_to_climb_stairs.py) | - | - |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./problems/recursion-and-dp/word_search.py) | Medium | LeetCode |
+| - | Winning Hand | [Python](./problems/recursion-and-dp/winning_hand.py) | - | - |
 
 ## NP-Complete
 

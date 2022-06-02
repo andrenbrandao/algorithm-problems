@@ -189,3 +189,73 @@ test(
 test([1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 9], False)
 test([1, 2, 3, 3, 4, 4, 5, 6, 6, 6, 7, 8, 8, 9], False)
 print("All tests passed!")
+
+
+"""
+Also liked this solution from Isla:
+https://gist.github.com/IslaMurtazaev/b9801d7561d27762f8df4eb64394386c
+"""
+
+tiles = [1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5]
+
+
+def can_win(tiles):
+    counter = dict()
+    for tile in tiles:
+        counter[tile] = counter.get(tile, 0) + 1
+
+    for key, value in counter.items():
+        if value < 2:
+            continue
+
+        counter_copy = counter.copy()
+        counter_copy[key] -= 2
+        if check_triplets(counter_copy):
+            return True
+
+    return False
+
+
+def check_triplets(counter):
+    if is_empty(counter):
+        return True
+
+    counter_copy = counter.copy()
+    if remove_street(counter_copy) and check_triplets(counter_copy):
+        return True
+
+    counter_copy = counter.copy()
+    if remove_set(counter_copy) and check_triplets(counter_copy):
+        return True
+
+    return False
+
+
+def is_empty(counter):
+    for value in counter.values():
+        if value > 0:
+            return False
+    return True
+
+
+def remove_street(counter):
+    for key in counter.keys():
+        has_street = all([counter.get(i, 0) > 0 for i in range(key, key + 3)])
+
+        if has_street:
+            for i in range(key, key + 3):
+                counter[i] -= 1
+            return True
+
+    return False
+
+
+def remove_set(counter):
+    for key, value in counter.items():
+        if value >= 3:
+            counter[key] -= 3
+            return True
+    return False
+
+
+print(can_win(tiles))

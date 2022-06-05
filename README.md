@@ -20,6 +20,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./problems/arrays-and-strings/remove_duplicates_from_sorted_array.py) | Easy | LeetCode |
 | - | Friend Cycle | [Python](./problems/arrays-and-strings/friend_cycle.py) | - | - |
 | - | Wrap Lines | [Python](./problems/arrays-and-strings/wrap_lines.py) | - | - |
+| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](./problems/arrays-and-strings/student_attendance_record_i.py) | Easy | LeetCode |
 
 ## Linked Lists
 

@@ -37,6 +37,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./problems/trees-and-graphs/min_cost_to_connect_all_points.py) | Medium | LeetCode |
 | - | [Swap Nodes](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Python](./problems/trees-and-graphs/swap_nodes.py) | Medium | HackerRank |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](./problems/trees-and-graphs/all_paths_from_source_to_target.py) | Medium | LeetCode |
+| 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./problems/trees-and-graphs/number_of_enclaves.py) | Medium | LeetCode |
 
 ## Recursion and Dynamic Programing
 

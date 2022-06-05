@@ -38,6 +38,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | - | [Swap Nodes](https://www.hackerrank.com/challenges/swap-nodes-algo/problem) | [Python](./problems/trees-and-graphs/swap_nodes.py) | Medium | HackerRank |
 | 797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Python](./problems/trees-and-graphs/all_paths_from_source_to_target.py) | Medium | LeetCode |
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./problems/trees-and-graphs/number_of_enclaves.py) | Medium | LeetCode |
+| 1905 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | [Python](./problems/trees-and-graphs/count_sub_islands.py) | Medium | LeetCode |
 
 ## Recursion and Dynamic Programing
 

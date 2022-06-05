@@ -21,6 +21,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | - | Friend Cycle | [Python](./problems/arrays-and-strings/friend_cycle.py) | - | - |
 | - | Wrap Lines | [Python](./problems/arrays-and-strings/wrap_lines.py) | - | - |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](./problems/arrays-and-strings/student_attendance_record_i.py) | Easy | LeetCode |
+| 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | [Python](./problems/arrays-and-strings/find_k_beauty_of_number.py) | Easy | LeetCode |
 
 ## Linked Lists
 

@@ -65,6 +65,12 @@ I have also created a directory to save my implementations of some [Data Structu
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./problems/recursion-and-dp/word_search.py) | Medium | LeetCode |
 | - | Winning Hand | [Python](./problems/recursion-and-dp/winning_hand.py) | - | - |
 
+## Sorting and Searching
+
+| # | Title | Solution | Difficulty | Platform |
+|---|-------|----------|------------|----------|
+| 2279 | Maximum Bags With Full Capacity of Rocks | [Python](./problems/sorting-and-searching/maximum_bags.py) | Medium | LeetCode |
+
 ## NP-Complete
 
 | # | Title | Solution | Difficulty | Platform |

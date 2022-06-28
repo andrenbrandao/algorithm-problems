@@ -40,6 +40,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | [Python](./problems/trees-and-graphs/number_of_enclaves.py) | Medium | LeetCode |
 | 1905 | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | [Python](./problems/trees-and-graphs/count_sub_islands.py) | Medium | LeetCode |
 | 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./problems/trees-and-graphs/01_matrix.py) | Medium | LeetCode |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Python](./problems/trees-and-graphs/number_of_provinces.py) | Medium | LeetCode |
 
 ## Recursion and Dynamic Programing
 

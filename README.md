@@ -28,6 +28,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | # | Title | Solution | Difficulty | Platform |
 |---|-------|----------|------------|----------|
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./problems/linked-lists/linked_list_cycle.py) | Easy | LeetCode |
+| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | [Python](./problems/linked-lists/convert_sorted_list_to_bst.py) | Medium | LeetCode |
 
 ## Trees and Graphs
 

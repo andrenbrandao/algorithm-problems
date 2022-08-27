@@ -70,7 +70,8 @@ I have also created a directory to save my implementations of some [Data Structu
 
 | # | Title | Solution | Difficulty | Platform |
 |---|-------|----------|------------|----------|
-| 2279 | Maximum Bags With Full Capacity of Rocks | [Python](./problems/sorting-and-searching/maximum_bags.py) | Medium | LeetCode |
+| 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks)| [Python](./problems/sorting-and-searching/maximum_bags.py) | Medium | LeetCode |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./problems/sorting-and-searching/find_peak_element.py) | Medium | LeetCode |
 
 ## NP-Complete
 

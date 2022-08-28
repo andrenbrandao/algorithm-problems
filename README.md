@@ -66,6 +66,7 @@ I have also created a directory to save my implementations of some [Data Structu
 | - | Ways To Climb Stairs | [Python](./problems/recursion-and-dp/ways_to_climb_stairs.py) | - | - |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./problems/recursion-and-dp/word_search.py) | Medium | LeetCode |
 | - | Winning Hand | [Python](./problems/recursion-and-dp/winning_hand.py) | - | - |
+| - | [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) | [Python](./problems/recursion-and-dp/coin_change_problem.py) | Medium | HackerRank |
 
 ## Sorting and Searching
 

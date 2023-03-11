@@ -5,9 +5,16 @@
 
 ## Overview
 
-These are my solutions to multiple algorithm problems. Most of them are from Leetcode, but others will be from other courses or books.
+These are my solutions to multiple algorithm problems. Most of them are from Leetcode, but others will be from courses or books. 
 
-I have also created a directory to save my implementations of some [Data Structures](./data-structures/).
+For my solutions to the Cracking The Code Interview book, check [this repository](https://github.com/andrenbrandao/cracking-the-coding-interview). I have also created a directory to save my implementations of some [Data Structures](./data-structures/).
+
+You can checkout my [LeetCode Profile](https://leetcode.com/andrenbrandao/).
+
+## Important Links
+
+- Curated list of problems: [NeetCode 150](https://neetcode.io/practice).
+- Practice Mock Interviews: [Pramp](https://www.pramp.com/).
 
 ## Arrays and Strings
 

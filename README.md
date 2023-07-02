@@ -80,7 +80,7 @@ You can checkout my [LeetCode Profile](https://leetcode.com/andrenbrandao/).
 | ---- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ---------- | -------- |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) | [Python](./problems/sorting-and-searching/maximum_bags.py)              | Medium     | LeetCode |
 | 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                              | [Python](./problems/sorting-and-searching/find_peak_element.py)         | Medium     | LeetCode |
-| -    | External Sorting                                                                                                   | [Python](./problems/sorting-and-searching/external_sorting/solution.py) | -          | -        |
+| -    | [External Sorting](./problems/sorting-and-searching/external-sorting/README.md)                                    | [Python](./problems/sorting-and-searching/external-sorting/solution.py) | -          | -        |
 
 ## NP-Complete
 

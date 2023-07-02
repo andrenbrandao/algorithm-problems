@@ -5,7 +5,7 @@
 
 ## Overview
 
-These are my solutions to multiple algorithm problems. Most of them are from Leetcode, but others will be from courses or books. 
+These are my solutions to multiple algorithm problems. Most of them are from Leetcode, but others will be from courses or books.
 
 For my solutions to the Cracking The Code Interview book, check [this repository](https://github.com/andrenbrandao/cracking-the-coding-interview). I have also created a directory to save my implementations of some [Data Structures](./data-structures/).
 
@@ -13,8 +13,8 @@ You can checkout my [LeetCode Profile](https://leetcode.com/andrenbrandao/).
 
 ## Important Links
 
-- Curated list of problems: [NeetCode 150](https://neetcode.io/practice).
-- Practice Mock Interviews: [Pramp](https://www.pramp.com/).
+-   Curated list of problems: [NeetCode 150](https://neetcode.io/practice).
+-   Practice Mock Interviews: [Pramp](https://www.pramp.com/).
 
 ## Arrays and Strings
 
@@ -76,10 +76,11 @@ You can checkout my [LeetCode Profile](https://leetcode.com/andrenbrandao/).
 
 ## Sorting and Searching
 
-| #    | Title                                                                                                              | Solution                                                        | Difficulty | Platform |
-| ---- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- | ---------- | -------- |
-| 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) | [Python](./problems/sorting-and-searching/maximum_bags.py)      | Medium     | LeetCode |
-| 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                              | [Python](./problems/sorting-and-searching/find_peak_element.py) | Medium     | LeetCode |
+| #    | Title                                                                                                              | Solution                                                                | Difficulty | Platform |
+| ---- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ---------- | -------- |
+| 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks) | [Python](./problems/sorting-and-searching/maximum_bags.py)              | Medium     | LeetCode |
+| 162  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                              | [Python](./problems/sorting-and-searching/find_peak_element.py)         | Medium     | LeetCode |
+| -    | External Sorting                                                                                                   | [Python](./problems/sorting-and-searching/external_sorting/solution.py) | -          | -        |
 
 ## NP-Complete
 

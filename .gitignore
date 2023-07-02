@@ -27,3 +27,9 @@ cover/
 
 # Memory Profiling
 mprofile*.dat
+
+
+# Large File and Chunks
+large_file.txt
+chunk_*.txt
+result*.txt

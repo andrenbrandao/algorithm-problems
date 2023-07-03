@@ -6,6 +6,7 @@ Implement an external sorting algorithm. The input will be a large file of 500MB
 containing integers on each line. Assume the system can only handle 100MB of Memory.
 
 Execute the following to generate the large file:
+
 ```
 python3 gen.py
 ```
@@ -27,12 +28,12 @@ to sort the chunks and write to a result file.
 
 What are the time complexities?
 
-Breaking the file into chunks: O(n)
-Sorting one chunk: O(n/k * lg (n/k))
-Using the minheap to sort and merge the chunks: O(k*lg(k) * n)
+- Breaking the file into chunks: O(n)
+- Sorting one chunk: O(n/k*lg(n/k))
+- Using the minheap to sort and merge the chunks: O(n*lg(k))
 
 Since we are not parallelizing and have to sort each chunk at a time,
-we do it N times. Making the time complexity:
+we do it K times. Making the time complexity:
 
 Time Complexity: O(n*lg(n))
 

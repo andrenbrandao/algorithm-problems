@@ -50,3 +50,18 @@ Now, running [solution.py](./solution.py) with `mprof run solution.py`,
 we used around 60MB of memory.
 
 ![External Sorting Solution](./external-sorting-memory-usage.png)
+
+---
+
+Implemented a parallelized version using [joblib](https://joblib.readthedocs.io/en/stable/).
+
+To run it, execute:
+
+```
+python3 solution.py --parallel
+```
+
+The `time` of each execution was:
+
+- Sequential: 117 seconds
+- Parallel: 77 seconds
